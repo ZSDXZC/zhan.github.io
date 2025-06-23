@@ -1,206 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Resume - Free Bootstrap 4 Personal Template</title>
-        <meta name="description" content="Love resume." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Bootstrap 4-->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/animate.css/3.5.2/animate.min.css">
-        <!--icons-->
-        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-    </head>
-    <body>
-        <!--hero section-->
-        <section class="bg-alt hero p-0">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-5 bg-green text-white py-5 text-center col-fixed">
-                        <div class="mb-3">
-                            <img src="img/male.jpg" alt="Male" class="brand-logo img-fluid rounded-circle" />
-                        </div>
-                        <h1 class="pt-4 text-white h2"> 我是 <span> 卿姒 </span>, 是一只 <span> 全世界最土的！ </span><br /> <strong><span style="color: yellow;">土狗！！！</span></strong> </h1>
-                        <p class="mt-4 lead text-white">
-                            欢迎来到我的主页，大家可以叫我 <strong><span style="color: yellow;">旺财</span></strong>
-                        </p>
-                        <div class="pt-5">
-                            <a href="#services" class="btn btn-white btn-lg">
-                                领养我！
-                            </a>
-                        </div>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公司官网</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- 在<head>中添加 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:video" content="https://zsdxzc.github.io/zhan.github.io/images/suning.mp4">
+
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- Logo 区域 - 可以选择使用文字或图片 -->
+            <div class="logo">
+                <!-- 文字 Logo -->
+                <span class="logo-text">宁夏苏宁智能装备制造有限公司</span>
+
+                <!-- 图片 Logo - 需要时取消注释并替换图片路径 -->
+                <!--
+                <a href="#" class="logo-image">
+                    <img src="images/logo.png" alt="公司名称">
+                </a>
+                -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#products">产品</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <h1 data-aos="fade-up">立足彭阳 智能装备 支架维修</h1>
+            <p data-aos="fade-up" data-aos-delay="200">专注于矿用液压支架维修与智能化再制造</p>
+            <a href="#contact" class="cta-button" data-aos="fade-up" data-aos-delay="400">
+                立即咨询 <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- 产品/服务介绍 -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 data-aos="fade-up">领先全国的支架维修产线</h2>
+            <div class="product-grid">
+                <div class="product-card" data-aos="fade-up">
+                    <div class="product-image">
+                        <img src="images/cjzt.png" alt="智能解决方案">
                     </div>
-                    <div class="col-md-7 ml-auto px-0 py-2">
-                        <!--what I do-->
-                        <section class="bg-white" id="services">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-sm-8 mx-auto text-center">
-                                        <h2 class="text-primary"> 狗の物语 </h2>
-                                        <hr/>
-                                        <p>
-                                            人狗情未了
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row d-md-flex mt-4">
-                                    <div class="col-sm-4 mt-2">
-                                        <div class="card text-white bg-pink border-none">
-                                            <div class="card-body">
-                                                <h4 class="card-title"> 说起来你可能不信 </h4>
-                                                <p class="card-text"> 我流浪3天了 </p>
-                                                <a href="#" class="btn btn-white text-pink">领养我!</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 mt-2">
-                                        <div class="card text-white bg-blue border-none">
-                                            <div class="card-body">
-                                                <h4 class="card-title"> 翻遍了街上的垃圾桶 </h4>
-                                                <p class="card-text"> 没找到一丁点儿吃的 </p>
-                                                <a href="#" class="btn btn-white text-blue"> 领养我！ </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 mt-2">
-                                        <div class="card text-white bg-green border-none">
-                                            <div class="card-body">
-                                                <h4 class="card-title"> 面包店外撒落面包屑 </h4>
-                                                <p class="card-text"> 我又不敢去捡 </p>
-                                                <a href="#" class="btn btn-white text-green">领养我!</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <!--Skills & Abilities.-->
-                        <section class="bg-alt" id="skills">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-sm-8 mx-auto text-center">
-                                        <h2 class="text-primary"> 这是我的数据 </h2>
-                                        <hr/>
-                                        <p>
-                                            我本是一只人见人爱，花见花开的狗狗。流浪的日子让我憔悴，但是你的领养能让我容光焕发。
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row mt-4">
-                                    <div class="col-lg-12 mt-2">
-                                        <h6>智力</h6>
-                                        <div class="progress mb-3">
-                                            <div class="progress-bar bg-pink" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
-                                        </div>
-                                        <h6>蛮力</h6>
-                                        <div class="progress mb-3">
-                                            <div class="progress-bar bg-purple" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">99%</div>
-                                        </div>
-                                        <h6>体力</h6>
-                                        <div class="progress mb-3">
-                                            <div class="progress-bar bg-orange" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
-                                        </div>
-                                        <h6>情商</h6>
-                                        <div class="progress mb-3">
-                                            <div class="progress-bar bg-blue" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-                                        </div>
-                                        <h6>颜值</h6>
-                                        <div class="progress mb-3">
-                                            <div class="progress-bar bg-red" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
-                                        </div>
-                                        <h6>吐槽能量</h6>
-                                        <div class="progress mb-3">
-                                            <div class="progress-bar bg-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <!--my work-->
-                        <section class="bg-alt" id="portfolio">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-sm-8 mx-auto text-center">
-                                        <h2 class="text-primary"> 狗言狗语 </h2>
-                                        <hr/>
-                                        <p>
-                                            我的聊天记录，暴露真实人品
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row d-md-flex mt-4">
-                                    <div class="col-sm-6">
-                                        <div class="card">
-                                            <img class="card-img-top" src="img/gallery-1.jpg" alt="Gallery">
-                                            <div class="card-body">
-                                                <h5 class="card-title"><a href="#">礼貌待人</a></h5>
-                                                <p class="card-text"> 字字珠玑，谨言慎行。 </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="card border-none">
-                                            <div class="card ">
-                                                <img class="card-img-top" src="img/gallery-2.jpg" alt="Gallery">
-                                                <div class="card-body">
-                                                    <h5 class="card-title"><a href="#"> 矜持玉女 </a></h5>
-                                                    <p class="card-text"> 反黄斗士，正经老司 </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <!--contact-->
-                        <section class="bg-dark pt-3 pb-3 mt-4">
-                            <div class="container-fluid">
-                                <div class="row d-md-flex text-center text-primary">
-                                    <div class="col-sm-4">
-                                        <p><em class="ion-ios-telephone-outline icon-md"></em></p>
-                                        <p class="lead"> 13623454399</p>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <p><em class="ion-ios-chatbubble-outline icon-md"></em></p>
-                                        <p class="lead">gougou@gmail.com</p>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <p><em class="ion-ios-location-outline icon-md"></em></p>
-                                        <p class="lead">HuaiAn, Jiangsu, China</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <!--footer-->
-                        <section class="bg-white" id="connect">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-sm-8 mx-auto text-center">
-                                        <h3 class="text-primary">领养我</h3>
-                                        <hr/>
-                                        <p>
-                                            行行好
-                                        </p>
-                                        <p class="mt-2">
-                                            <a href="#"><em class="ion-social-twitter text-twitter-alt icon-sm mr-3"></em></a>
-                                            <a href="#"><em class="ion-social-github text-github-alt icon-sm mr-3"></em></a>
-                                            <a href="#"><em class="ion-social-linkedin text-linkedin-alt icon-sm mr-3"></em></a>
-                                        </p>
-                                        <p class="pt-2 text-muted">
-                                            &copy; <a target="_blank" href="http://www.mobanwang.com/" title="模板王">狗姒の网站</a> 当狗如是我！
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                    <h3>智能化车间</h3>
+                    <p>增材再制造车间  &  装配服务车间  自动化流水线作业，智能调度优化，备件智能管理</p>
+                    <a href="#" class="learn-more">了解更多 <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image">
+                        <img src="images/cj1.png" alt="数据分析平台">
                     </div>
+                    <h3>高端设备</h3>
+                    <p> 珩磨机、激光熔覆机、内孔熔铜机、剖光机、数控车床、拆装机、液压机等行业领先设备</p>
+                    <a href="#" class="learn-more">了解更多 <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="product-image">
+                        <img src="images/cjcxl.png" alt="云服务方案">
+                    </div>
+                    <h3>高效团队</h3>
+                    <p>专业化人才队伍，支撑“拆解→清洗→检测→修复→组装→测试→涂装”流水线工作面</p>
+                    <a href="#" class="learn-more">了解更多 <i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-    </body>
-</html>
+    <!-- 关于我们部���的更新 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">关于我们</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>扎根彭阳，服务矿山</h3>
+                    <p>
+                        苏宁致力于为周边煤矿企业提供“三机一架”设备的生产、制造与维修等业务，是彭阳县唯一一家装备制造企业，对推动彭阳工业发展起着重要作用。
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">年行业经验</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">技术专利</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5000w+</span>
+                            <span class="stat-label">年均产值</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="images/zjldjs.png" alt="关于我们">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们部分的更新 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">联系我们</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-content">
+                            <h4>公司地址</h4>
+                            <p>宁夏固原市彭阳县南门工业园区栖凤街18号</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-content">
+                            <h4>联系电话</h4>
+                            <p>13079528881</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-content">
+                            <h4>电子邮箱</h4>
+                            <p>2030959@163.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left" id="contactForm">
+                    <!--
+                    第三方留言接口配置说明：
+                    1. 表单ID: contactForm
+                    2. 各输入字段name属性对应接口参数
+                    3. 接口配置项在 js/contact.js 中设置
+                    -->
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="您的姓名" required
+                               data-msg="请输入您的姓名">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="电子邮箱" required
+                               data-msg="请输入有效的邮箱地址">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="联系电话"
+                               data-msg="请输入有效的电话号码">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="请输入您的留言" required
+                                  data-msg="请输入留言内容"></textarea>
+                    </div>
+                    <!-- 添加隐藏的表单字段用于防止垃圾信息 -->
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <input type="hidden" name="token" id="formToken">
+
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">发送消息</span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> 发送中...
+                        </span>
+                    </button>
+
+                    <!-- 表单提交结果提示 -->
+                    <div class="form-message" style="display: none;">
+                        <p class="success-message">
+                            <i class="fas fa-check-circle"></i>
+                            消息已发送，我们会尽快与您联系！
+                        </p>
+                        <p class="error-message">
+                            <i class="fas fa-exclamation-circle"></i>
+                            发送失败，请稍后重试或直接联系我们。
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 修改后的视频部分代码 -->
+    <section class="video-section">
+        <div class="container">
+            <h2 data-aos="fade-up">公司宣传视频</h2>
+            <div class="video-container" data-aos="fade-up">
+                <!-- 方案1：压缩后的本地视频 -->
+                <video controls poster="images/jjt.png" preload="metadata">
+                    <source src="images/suning.mp4" type="video/mp4">
+                    您的浏览器不支持HTML5视频
+                </video>
+
+                <!-- 或方案2：使用免费视频托管 -->
+                <!-- <iframe src="https://drive.google.com/file/d/您的视频ID/preview" allowfullscreen></iframe> -->
+            </div>
+            <p class="video-caption">建议在WiFi环境下观看</p>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 宁夏苏宁. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+    <script src="js/contact.js"></script>
+</body>
+</html> 
